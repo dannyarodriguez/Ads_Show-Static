@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f5f4;
+}
+
+.wrap {
+    max-width: 1400px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+header {
+    position:relative;
+}
+header #main-logo {
+    padding: .5em;
+}
+header #main-title {
+    text-align: center;
+
+}
+header nav {
+    width: 100%;
+    background-color: #000;
+    color: #fff;    
+}
+header nav p { 
+    text-align: right; padding: .2em .5em;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+}
+
+.aside-panel {
+    display: flex;
+    max-width: 20%;
+    width: 100%;
+    /* background: blueviolet; */
+}
+
+.ad {
+    padding: 2%;
+    margin: auto;
+    text-align: center;   
+    
+}
+
+.ad #ad01_160x600 {
+    width: 160px;
+    height: 600px;
+    background: #FFF;
+    position: relative;
+    background-image: url(./img/Background.png);
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ad .v-title {
+    position: absolute;
+    top: 45%;
+    right: 5%;
+    left: 5%;
+    text-align: center;
+    color:#800898;
+}
+.ad .h-title {
+    color:#800898;
+}
+.ad .v-ad-logo {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    left: 5%;
+    text-align: center;
+    
+    
+}
+.ad .v-ad-logo img {
+    height: 6em;
+}
+.ad #ad04_300x250 .v-ad-logo img {
+    height: 4em;
+}
+.ad .v-cta {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    left: 5%;
+    text-align: center;
+}
+
+.ad .v-cta a {
+    background-color: #01567D;
+    border-radius: .5em;
+    padding: .5em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFF;
+    opacity: 1;
+}
+
+
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content-1-2 {
+    width: 50%;
+}
+.content-fill-1 {
+    display: flex;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+
+
+.content-fill-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: chartreuse; */
+}
+.border {
+    border: 1px solid thistle;
+    overflow: auto;
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+.ad #ad02_300x50 {
+    width: 300px;
+    height: 50px;
+    background: #FFF;
+    position: relative;   
+    background-image: url(./img/Background.png);
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.ad .h-title {
+    position: absolute;
+    top: 30%;
+    /* right: 5%; */
+    left: 5%;
+    text-align: center;
+}
+.ad .h-ad-logo {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    left: 5%;
+    text-align: center;
+    
+}
+.ad #ad02_300x50 .h-ad-logo img {
+    height: 2.5em;
+}
+.ad #ad03_468x60 .h-ad-logo img {
+    height: 3em;
+}
+.ad .h-ad-logo img {
+    height: 4rem;
+}
+.ad .h-cta {
+    position: absolute;
+    top: 40%;
+    right: 5%;
+    /* left: 5%; */
+    text-align: center;
+}
+.ad .h-cta a {
+    background-color: #01567D;
+    border-radius: .5em;
+    padding: .3em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFF;
+    opacity: 1;
+}
+.ad #ad03_468x60 {
+    width: 468px;
+    height: 60px;
+    background: #FFF;
+    position: relative;
+    background-image: url(./img/Background.png);
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y:hidden;
+}
+
+.ad #ad04_300x250 {
+    width: 300px;
+    height: 250px;
+    background: #FFF;
+    position: relative;   
+    background-image: url(./img/Background.png);
+    background-position: 10%;
+    background-repeat: no-repeat;    
+}
+
+.ad #ad05_728x90 {
+    width: 728px;
+    height: 90px;
+    background: #FFF;
+    position: relative;
+    background-image: url(./img/Background.png);
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+.ad #ad06_970x90 {
+    width: 970px;
+    height: 90px;
+    background: #FFF;
+    position: relative;
+    background-image: url(./img/Background.png);
+    background-position: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn {
+    padding: 0 .1em;
+    border-radius: 5em;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+}
+.btn img {
+    width: 4em;
+    height: 2em;
+}
